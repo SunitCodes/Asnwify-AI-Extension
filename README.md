@@ -31,17 +31,34 @@ Designed for **students, professionals, and researchers**, Answify AI boosts pro
 | Frontend | Backend | Tools |
 | --- | --- | --- |
 | HTML, CSS, JavaScript (Chrome Extension APIs) | Spring Boot (Java) | Maven, REST APIs |
-| Chrome Extension Manifest v3 | Spring Web, Lombok | Git, GitHub |
-| | | AI/ML API integration |
+| Chrome Extension Manifest v3 | Spring Web, Lombok | Git, GitHub, API integration |
 
 ---
 
 ## 📁 Project Structure
 
-- **`src/main/java`** – Contains the application's Java source code.
-- **`src/main/resources`** – Contains application configuration files, such as `application.properties`.
-- **`src/test/java`** – Contains unit tests and integration tests for the application.
-- **`src/test/resources`** – Contains test data and configuration files.
+├── frontend/ # Chrome extension files
+│ ├── manifest.json
+│ ├── sidepanel.html
+│ ├── sidepanel.css
+│ ├── sidepanel.js
+│ └── icons/
+│
+├── backend/ # Spring Boot application
+│ ├── src/main/java/... # Java source files
+│ ├── pom.xml
+│ └── application.yml
+│
+└── README.md
 
 ---
+
+## ⚙️ How to Use
+
+## 2️⃣ Frontend (Chrome Extension)
+
+1. Open **Chrome** → Go to `chrome://extensions/`
+2. Enable **Developer mode** (toggle in the top-right corner)
+3. Click **Load unpacked**
+4. Select the **frontend/** folder from the project
 

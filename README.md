@@ -37,6 +37,8 @@ Designed for **students, professionals, and researchers**, Answify AI boosts pro
 
 ## 📁 Project Structure
 
+```
+
 ├── frontend/ # Chrome extension files
 │ ├── manifest.json
 │ ├── sidepanel.html
@@ -51,11 +53,12 @@ Designed for **students, professionals, and researchers**, Answify AI boosts pro
 │
 └── README.md
 
+```
 ---
 
 ## ⚙️ How to Use
 
-## 2️⃣ Frontend (Chrome Extension)
+## 📌 Frontend (Chrome Extension)
 
 1. Open **Chrome** → Go to `chrome://extensions/`
 2. Enable **Developer mode** (toggle in the top-right corner)
